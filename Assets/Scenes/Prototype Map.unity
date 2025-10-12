@@ -817,7 +817,7 @@ PrefabInstance:
       objectReference: {fileID: 9000000, guid: b3b88c627c794d0468531a164197c8a7, type: 3}
     - target: {fileID: 9573410, guid: 2d927feb0fbf1a7429c095369d395de7, type: 3}
       propertyPath: m_AnimatePhysics
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9575674, guid: 2d927feb0fbf1a7429c095369d395de7, type: 3}
       propertyPath: m_Avatar
