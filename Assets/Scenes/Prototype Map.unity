@@ -504,6 +504,7 @@ GameObject:
   - component: {fileID: 1485242368}
   - component: {fileID: 1485242370}
   - component: {fileID: 1485242371}
+  - component: {fileID: 1485242372}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -570,6 +571,23 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1485242372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485242364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c7b91dc50a4da448ba1793ec9d83c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorInteractor
+  interactRange: 3
+  doorLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  interactKey: 101
 --- !u!1 &1556807131
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 408632, guid: 2d927feb0fbf1a7429c095369d395de7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.93
+      value: 14.769
       objectReference: {fileID: 0}
     - target: {fileID: 408632, guid: 2d927feb0fbf1a7429c095369d395de7, type: 3}
       propertyPath: m_LocalPosition.y
