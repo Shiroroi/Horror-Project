@@ -13,6 +13,24 @@ public class DialogueUI : MonoBehaviour
     public TMP_Text vnName;
     public TMP_Text vnText;
     public Image vnPortrait;
+    
+    [Header("Player Input")]
+    public TMP_InputField playerInput;
+    public GameObject inputPanel;
+
+    public void ShowInput(bool show)
+    {
+        inputPanel.SetActive(show);
+        if (show)
+            playerInput.text = "";
+    }
+
+    public void OnSendMessage()
+    {
+        DialogueManager.Instance.PlayerSentMessage(playerInput.text);
+        playerInput.text = "";
+    }
+
 
     public void ShowFloating()
     {
