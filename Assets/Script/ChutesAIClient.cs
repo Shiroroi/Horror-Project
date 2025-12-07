@@ -10,8 +10,8 @@ public class ChutesAIClient : MonoBehaviour
     public static ChutesAIClient Instance;
 
     [Header("Chutes settings")]
-    [Tooltip("Put your Chutes API key here (keep it secret).")]
-    public string apiKey = "YOUR_CHUTES_API_KEY";
+    [Tooltip("Chutes API here")]
+    public string apiKey = "Chutes API Key";
 
     [Tooltip("Chutes chat completions endpoint (default).")]
     public string endpoint = "https://llm.chutes.ai/v1/chat/completions";
