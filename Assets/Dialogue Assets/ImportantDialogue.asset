@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: ImportantDialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   useVNStyle: 1
+  isAIConversation: 1
+  npcID: fishermanNPC01
+  npcSystemPrompt: You are a grumpy fisherman in a cold village.
   lines:
   - speakerName: MEMEK
     line: B-baka!
