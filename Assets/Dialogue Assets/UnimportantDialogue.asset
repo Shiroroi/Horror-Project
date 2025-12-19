@@ -15,5 +15,5 @@ MonoBehaviour:
   useVNStyle: 0
   lines:
   - speakerName: Pepek
-    line: Pepek!
+    line: I'm not important!
     portrait: {fileID: 0}
